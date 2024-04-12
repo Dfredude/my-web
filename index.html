@@ -71,6 +71,27 @@
     <section>
       <div class="container">
         <div class="row">
+          <div class="col-2"></div>
+          <div class="col-8 text-center">
+            <h1>Professional experience</h1>
+            <p>Ask any question you may have about my professional experience.</p>
+                <form>
+                    <p>
+                        <input id="question" type="text" class="form-control" name="question" value="" placeholder="E.g. How many years of JavaScript experience do you have?">
+                    </p>
+                    <p>
+                        <button class="btn btn-primary" id="ask-btn" type="button" class="btn btn-light">Ask!</button>
+                    </p>
+                </form>
+              <p id="answer"></p>
+          </div>
+          <div class="col-2"></div>
+        </div>
+    </section>
+    <hr>
+    <section>
+      <div class="container">
+        <div class="row">
           <div class="col-12 text-center">
             <h1>Projects</h1>
             <p>I hope you like them!&nbsp;</p>
@@ -109,21 +130,28 @@
         </div>
 </div>
 
+<br/>
     </section>
 	<hr>
-    <section>
+    <section class="p-5">
       <div class="container">
         <div class="row">
-          <div class="col-12 text-center">
-            <h1>Download my CV/Resume</h1>
-            <p>I hope it's useful&nbsp; &nbsp;</p>
+          <div class="col-6 text-center">
+            <h1>Download my CV</h1>
+            <p>To view my executive profile &nbsp; &nbsp;</p>
             <a id="CV" href="CV.pdf" download><button type="button" class="btn btn-lg btn-primary" > <i class="fas fa-arrow-alt-circle-down"></i> Resume</button></a>
+          </div>
+          <div class="col-6 text-center p-3">
+            <h1>References</h1>
+            <p>Reference letters!</p>
+            <a id="RL-RV" class="d-block my-2 mx-5" href="./docs/ReferenceLetter-RV.pdf" download><button type="button" class="btn btn-block btn-primary" > <i class="fas fa-arrow-alt-circle-down"></i> Rafael Vazquez (Samsung Electronics)</button></a>
+            <a class="d-block my-2 mx-5" href="./docs/Samsung - Proof of work.jpg" download><button type="button" class="btn btn-block btn-primary" > <i class="fas fa-arrow-alt-circle-down"></i> Proof of work (Samsung Electronics)</button></a>
           </div>
         </div>
       </div>
     </section>
     <hr>
-    <div class="section">
+    <div class="section p-4">
       <div class="container">
         <div class="row">
           <div class="col-md-4 col-12 col-lg-6">
@@ -157,5 +185,6 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap-4.4.1.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>
